@@ -11,9 +11,8 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://*.facebook.com/*", "http://*.facebook.com/*"
-      ],
+      "matches": [ "https://*.facebook.com/*", "http://*.facebook.com/*" ],
+      "css" : ["style.css"],
       "js": ["timer.js"]
     }
   ],

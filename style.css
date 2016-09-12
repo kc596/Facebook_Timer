@@ -1,0 +1,17 @@
+.timer-style{
+    float: right;
+    font-weight: 700;
+    font-size: 2em;
+    position: relative;
+    top: -20px;
+    margin-right: 20px;
+}
+h1{
+	text-transform: uppercase;
+	color:#3b5998;
+	font-size:18px;
+	text-align: center;
+}
+body{
+	min-width:250px;
+}
