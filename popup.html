@@ -6,11 +6,21 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <h1>Facebook Timer</h1>
-    <div id="timer-display"></div>
-    <a href="#" class="action-button shadow animate red" id="resetButton">Reset Timer</a>
+    <h1 class="custom">Facebook Timer</h1>
+
+    <h2 class="custom">Total Usage</h2>
+    <div id="total-timer-display"></div>
+
+    <h2 class="custom">Current Usage</h2>
+    <div id="current-timer-display"></div>
+
+    <hr>
+    <p>
+      <a href="#" class="action-button shadow animate green" id="refreshButton">Refresh</a>
+      <a href="#" class="action-button shadow animate red" id="resetButton">Reset Current Timer</a>
+    </p>
     <!-- <a href="#" class="action-button shadow animate blue">Button 2</a>
-    <a href="#" class="action-button shadow animate green">Button 3</a>
     <a href="#" class="action-button shadow animate yellow">Button 4</a> -->
+    <p style="font-size:0.9em; text-align: center; color:#4267b2;">Timer can be reset only when facebook's tab is active.</p>
   </body>
 </html>
