@@ -1,12 +1,22 @@
 .timer-style{
     float: right;
-    font-size: 1.5em;
-    position: relative;
-    top: -1.9em;
-    margin-right: 40px;
+    font-size: 1.4em;
+    position: fixed;
+    top: 0px;
+    display:block;
+    width:100%;
+    text-align: center;
+    z-index: 555;
     color: #fff;
 }
-
+.timer_bg{
+    margin-left:auto;
+    margin-right:auto;
+    width:125px;
+    background-color: #000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
 /*popup style*/
 h1{
 	text-transform: uppercase;
