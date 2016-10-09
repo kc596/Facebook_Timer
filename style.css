@@ -1,11 +1,13 @@
 .timer-style{
     float: right;
-    font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
     position: relative;
-    top: -20px;
-    margin-right: 20px;
+    top: -1.9em;
+    margin-right: 40px;
+    color: #fff;
 }
+
+/*popup style*/
 h1{
 	text-transform: uppercase;
 	color:#3b5998;

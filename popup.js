@@ -1,8 +1,9 @@
+
 document.addEventListener('DOMContentLoaded', function() {
   var checkPageButton = document.getElementById('checkPage');
   checkPageButton.addEventListener('click', function() {
 
-    chrome.tabs.getSelected(null, function(tab) {
+    /*chrome.tabs.getSelected(null, function(tab) {
       d = document;
 
       var f = d.createElement('form');
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
       f.appendChild(i);
       d.body.appendChild(f);
       f.submit();
-    });
+    });*/
+    alert("hello");
   }, false);
 }, false);
