@@ -16,6 +16,12 @@ If you have realized that you are using too much facebook and its decreasing you
  - Select the folder in which extracted files are present.  
  Congratulations. You have successfully installed the extension.
 
+## Contribution
+
+ - If you find any bug, please report and help in making this extension more productive.
+ - If you want any new feature, simply ask for it (comment).
+ - You could also create pull request. If I find it useful, I will surely merge it :D .
+
 ## License
 
 > GNU Version 3
