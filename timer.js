@@ -3,16 +3,19 @@
  * @author Kunal Chaudhary
  */
 
-/**** Timer variables ****/
-var _curr, _total, time;
+var _curr, _total, time;		//timer variables
 
-/**** Selecting the place to display timer ****/
+
+/**
+ * Selecting the place on facebook's page to display timer
+ */
 var myElement = document.createElement("div");
 myElement.setAttribute("class", "timer-style");
 document.getElementsByTagName("body")[0].appendChild(myElement);
 var child = document.createElement("div");
 child.setAttribute("class","timer_bg");
 child.innerHTML=time;
+
 
 //Function to display timer
 function displayTimer(){
@@ -28,11 +31,17 @@ function set_timer(){
 	setTimerValue();
 }
 
-/**** Retriving the timer's previous value. Then calling the timer function every second ****/
+/**
+ * Retriving the timer value as soon as facebook is opened
+ * Refreshing the timer every second
+ */
 getTimerValue();
 setInterval(set_timer, 1000);
 
-/**** Timer Reset Feature ****/
+
+/*
+ * Handling timer reset request from popup.js
+ */
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	console.log("current timer cleared :D ");
 	if (request.clear == "true"){

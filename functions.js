@@ -3,7 +3,9 @@
  * @author Kunal Chaudhary
  */
 
-/**** Timer functions ****/
+/**
+ * Timer functions
+ */
 function getSeconds(t){
   t=""+(parseInt(t)%60);
   if(t.length==1) t="0"+t;
@@ -23,7 +25,9 @@ function getHours(t){
 }
 
 
-/**** Helper functions ****/
+/**
+ * Helper functions
+ */
 function setTimerValue(){
   chrome.storage.local.set({'curr_timer': _curr, 'total_timer': _total}, function(){})
 }

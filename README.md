@@ -1,6 +1,8 @@
 # Facebook Timer
 
-This is a google chrome extension which tracks your time spent using [facebook.com].
+This is a google chrome extension which tracks your time spent using [facebook.com].  
+Wiki : [wiki]  
+FAQ  : [FAQ]
 
 ## Motivation
 
@@ -18,9 +20,8 @@ If you have realized that you are using too much facebook and its decreasing you
 
 ## Contribution
 
- - If you find any bug, please report and help in making this extension more productive.
- - If you want any new feature, simply ask for it.
- - You could also create pull request. If I find it useful, I will surely merge it :D .
+ - If you find any bug, please report by creating an issue and help in making this extension more productive.
+ - Check out [Facebook_timer wiki] for more more info.
 
 ## License
 
@@ -28,3 +29,6 @@ If you have realized that you are using too much facebook and its decreasing you
 
 [facebook.com]: <https://facebook.com>
 [chrome://extensions]: <chrome://extensions>
+[Facebook_timer wiki]: <https://github.com/kc596/Facebook_Timer/wiki>
+[wiki]: <https://github.com/kc596/Facebook_Timer/wiki>
+[FAQ]: <https://github.com/kc596/Facebook_Timer/wiki/FAQ>
