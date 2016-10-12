@@ -15,6 +15,7 @@ If you have realized that you are using too much facebook and its decreasing you
  - Open Google chrome settings -> Extensions. Or simply type in url: `chrome://extensions` and press enter.
  - Drag and drop the **Facebook_Timer.crx** file onto Google chrome browser.
  - Click install.  
+ 
   *Congratulations.* You have successfully installed the extension.  
 
  **NOTE :** Do not install by clicking the crx file directly. First open `chrome://extensions` and then drag the crx file.
