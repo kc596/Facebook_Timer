@@ -11,11 +11,10 @@ If you have realized that you are using too much facebook and its decreasing you
 
 ## Installation
 
- - First of all, download the zip file and extract it anywhere on your system and put all files inside a folder.
+ - First of all, download the `Facebook_Timer.crx` file from crx folder.
  - Open Google chrome settings -> Extensions. Or simply type in url: `chrome://extensions` and press enter.
- - Check **Developer mode** at the top.
- - Select `Load unpacked extension..`
- - Select the folder in which extracted files are present.  
+ - Drag and drop the **crx** file onto Google chrome browser.
+ - Click install.
  Congratulations. You have successfully installed the extension.
 
 ## Contribution
