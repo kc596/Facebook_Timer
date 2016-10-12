@@ -11,11 +11,13 @@ If you have realized that you are using too much facebook and its decreasing you
 
 ## Installation
 
- - First of all, download the `Facebook_Timer.crx` file from crx folder.
+ - First of all, download the [Facebook_Timer.crx] file from crx folder.
  - Open Google chrome settings -> Extensions. Or simply type in url: `chrome://extensions` and press enter.
- - Drag and drop the **crx** file onto Google chrome browser.
- - Click install.
- Congratulations. You have successfully installed the extension.
+ - Drag and drop the **Facebook_Timer.crx** file onto Google chrome browser.
+ - Click install.  
+  *Congratulations.* You have successfully installed the extension.  
+
+ **NOTE :** Do not install by clicking the crx file directly. First open `chrome://extensions` and then drag the crx file.
 
 ## Contribution
 
@@ -31,3 +33,4 @@ If you have realized that you are using too much facebook and its decreasing you
 [Facebook_timer wiki]: <https://github.com/kc596/Facebook_Timer/wiki>
 [wiki]: <https://github.com/kc596/Facebook_Timer/wiki>
 [FAQ]: <https://github.com/kc596/Facebook_Timer/wiki/FAQ>
+[Facebook_Timer.crx]: <https://github.com/kc596/Facebook_Timer/raw/master/crx/v1.4/Facebook_Timer.crx>
